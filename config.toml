@@ -1,6 +1,6 @@
 baseURL = 'http://maxnagy.com/'
 title = 'Max Nagy´s personal Website'
-theme = 'risotto'
+theme = 'terminal' # 'researcher' #'risotto'
 
 author = "Max Nagy"
 copyright = "© 2021 Max Nagy"
@@ -62,3 +62,11 @@ unsafe = true
     disabled = false
     privacyEnhanced = true
 
+[languages]
+  [languages.en]
+    title = "Max Nagy"
+    subtitle = "my personal website"
+
+  [languages.en.params.logo]
+    logoText = "Max Nagy"
+    logoHomeLink = "/"
