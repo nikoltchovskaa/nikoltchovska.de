@@ -1,10 +1,10 @@
 ---
-title: "Pigeons"
+title: "The overengineered Solution to my Pigeon Problem"
 date: 2022-04-16T12:05:06+02:00
 draft: false 
 ---
 
-TL;DR: I built a wifi-equipped electric water gun to shoot 
+TL;DR: I built a wifi-equipped water gun to shoot 
 the pigeons on my balcony, controlled over the internet by a
 python script running openCV reading the camera image of my
 old iPhone.
