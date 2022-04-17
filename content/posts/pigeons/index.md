@@ -11,7 +11,7 @@ old iPhone.
 
 ---
 
-## Introduction
+# Introduction
 
 The pigeons in my backyard find particular pleasures in voiding their excrements onto my balcony. Dissatisfied with this situation, I went online to find a solution. I created a handy table to give you an overview of the vast number of ~effective~ ways to get rid if pigeons:
 
@@ -33,7 +33,7 @@ The pigeons in my backyard find particular pleasures in voiding their excrements
 
 After a quick burst of manic energy during exam phase, I decided to solve the pigeon problem on my balcony once and for all (and in a humane way). The idea was quite simple: Mount an electric water gun on my balcony, detect pigeons with a web cam and shoot them. Pigeons should not get used to getting sprayed at (at least not while its coldish), I don't have to disfigure my balcony and I'm not harming the pigeons in any way or even risk killing them. As I approached this project during my exam phase, it should also be quick to implement using things I already have  laying around.
 
-## The water gun
+# The Water Gun
 
 I bought a cheap electric water gun [from Amazon](https://www.amazon.de/Wasserpistole-Elektrische-Wasserblaster-Wasserdicht-Wasserspielzeug/dp/B09578C69R/ref=sr_1_6?keywords=wasserpistole+elektrisch&qid=1650101643&sprefix=wasserpistole+ele%2Caps%2C147&sr=8-6) and tested it out: The range of around 3-4 meters is pathetic, but plenty for my balcony.
 
@@ -58,7 +58,7 @@ can draw as much power as it wants without crashing the
 microcontroller. Also, it allows me to reprogram the Wemos if I 
 mess up the wifi config ;)
 
-## The camera
+# The Camera
 
 I decided to use my old iPhone 6S as a camera: Its small, has a
 battery, works without any configuration and most importantly: I 
@@ -71,9 +71,9 @@ I like that it lets you black out the display. As a final step,
 I put masking tape on the window, so that the camera does not look
 into my neighbours windows as that would be creepy.
 
-## The software
+# The Software
 
-### Image Analysis
+#### Image Analysis
 
 The brains of the operation is a python script using openCV. It 
 compares the current image to the normal background [^background].
@@ -144,7 +144,7 @@ The resulting code looks like this:
             armed = (score == 0)
 ```
    
-### Networking
+#### Networking
 
 The first iteration used a HTTP server on the Wemos Board that 
 triggered, whenever a request was recieved. This was 
@@ -234,7 +234,7 @@ motivates someone to find my server and empty the whole whopping
 reflector bind only my VPN. But if you made it this far through the
 text you wouldn't do that, right? <3
 
-## Results
+# Results
 
 Let's have a look at our first customer:
 
