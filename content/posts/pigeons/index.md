@@ -13,7 +13,7 @@ old iPhone.
 
 # Introduction
 
-The pigeons in my backyard find particular pleasures in voiding their excrements onto my balcony. Dissatisfied with this situation, I went online to find a solution. I created a handy table to give you an overview of the vast number of ~effective~ ways to get rid if pigeons:
+The pigeons in my backyard find particular pleasures in voiding their excrements onto my balcony. Dissatisfied with this situation, I went online to find a solution. I created a handy table to give you an overview of the vast number of ~~effective~~ _established_ ways to get rid if pigeons:
 
 | Approach | Why it doesn't work |
 |:--|:--|
