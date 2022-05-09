@@ -53,7 +53,7 @@ power and added a small hole for the cables:
 ![The water gun with the paper contraption and the microcontroller installed](microcontroller.jpg)
 
 The microcontroller is powered by a USB power bank which is convenient, as the microcontroller does not drain the gun's battery (where
-rechargable batteries don't fit (yes, really)), and the guns motor
+recheargable batteries don't fit (yes, really)), and the guns motor
 can draw as much power as it wants without crashing the 
 microcontroller. Also, it allows me to reprogram the Wemos if I 
 mess up the wifi config ;)
@@ -66,7 +66,7 @@ had it at hand. After finding a suitable position on my window, I
 designed a very simple holding bracket, 3D printed it and glued it
 on my balcony window using [3M mounting tape](https://www.amazon.de/3M-VHB-Hochleistungsklebeband-schwarz-doppelseitiges/dp/B00EDLPG7Y/ref=sr_1_6?keywords=3M+tape&qid=1650114049&sr=8-6) [^tape].
 I use [this app](https://apps.apple.com/de/app/ipcamera-high-end-networkcam/id570912928?l=en)
-to get a MJPEG stream of it's camera. It works good and 
+to get a MJPEG stream of its camera. It works good and 
 I like that it lets you black out the display. As a final step,
 I put masking tape on the window, so that the camera does not look
 into my neighbours windows as that would be creepy.
@@ -87,7 +87,7 @@ gun. We use four small tricks to make this work reliably in practice:
    the wind, as well as the reflections in the window. (Otherwise
    it gets triggered whenever someone comes close to the window)
 4. After a movement was detected, wait for the movement to stop 
-   (and the background to stabilze) again.
+   (and the background to stabilise) again.
 
 This heuristic works pretty reliably. 
 
@@ -147,7 +147,7 @@ The resulting code looks like this:
 #### Networking
 
 The first iteration used a HTTP server on the Wemos Board that 
-triggered, whenever a request was recieved. This was 
+triggered, whenever a request was received. This was 
 straightforward and worked well, until I found out that the wifi
 antenna on the Wemos is too weak to connect to my wifi from the
 balcony. The solution was to connect the Wemos to my phones 
@@ -155,7 +155,7 @@ hotspot. The problem is, that now the Wemos and my laptop are now
 in different networks so they cannot talk to one another directly.
 
 I therefore wrote a small go program (the _reflector_) that 
-accepts HTTP and TCP connections: Whenever it recieves a HTTP 
+accepts HTTP and TCP connections: Whenever it receives a HTTP 
 request, it sends "PEW!" to one of the connected TCP clients 
 (Usually there is only one). The code is pretty simple, the only 
 tricky part is to ensure that reconnections are handled well. 
@@ -195,7 +195,7 @@ func main() {
 ```
 
 The water gun connects via TCP and fires whenever it 
-recieves "PEW!". The python script on my laptop stays as it is and
+receives "PEW!". The python script on my laptop stays as it is and
 simply sends its HTTP requests to the go program on my server 
 instead of directly to the Wemos. I chose to use micropython to
 program the Wemos:
@@ -219,14 +219,14 @@ def main():
 ```
 
 The smart ones among you may have noticed some bugs in the snippets
-above: TCP does not garantee that our "PEW!" message is sent 
-recieved in a single package; if multiple clients are connected,
-only one recieves the message (which may be disconnected);
-and the whole operation is entriely unencrypted and 
+above: TCP does not guarantee that our "PEW!" message is sent 
+received in a single package; if multiple clients are connected,
+only one receives the message (which may be disconnected);
+and the whole operation is entirely unencrypted and 
 unauthenticated. And you'd be absolutely right. A nice thing about
 writing software just for oneself is that its completely sufficent
-if it works for me (tm). Of cause I made sure that the setup cannot
-be used go gain access to my network / remote code execution / 
+if it works for me (tm). Of course I made sure that the setup cannot
+be used to gain access to my network / remote code execution / 
 host child porn / be used for DDOS or all of the other stuff that 
 may happen when you deploy software on the internet. If this post 
 motivates someone to find my server and empty the whole whopping 
@@ -242,7 +242,7 @@ Let's have a look at our first customer:
 
 Look at him sitting there, just behind the railings. This is 
 precisely where the water gun _would_ be pointing at. This picture
-was taken, in the brief period between realizing that the wifi on
+was taken, in the brief period between realising that the wifi on
 the balcony is too weak and coming up with the reflector solution.
 Luckily he was not in the mood for release.
 
@@ -278,5 +278,5 @@ To be continued...
     For each new image the software gets from the camera the background is calculated
     as `background[x,y] <- background[x,y] * 0.95 + new_image[x,y] * 0.05` for each pixel.
     (the software works in black and white) If we just took one picture in the beginning,
-    we would detect a lot of differences as clouds change the lighting throuout the day.
+    we would detect a lot of differences as clouds change the lighting throughout the day.
 
