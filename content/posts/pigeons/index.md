@@ -41,7 +41,7 @@ Next, I opened it up to figure out how to control it over the internet:
 
 ![The water gun opened](water_gun.jpg)
 
-I chose one of my trusty Wemos D1 Mini boards as the brain if the 
+I chose one of my trusty Wemos D1 Mini boards as the brain of the 
 water gun. They are small, cheap, offer Wifi and have some shields
 available for them that ease cabling. In particular I'm using the 
 relay shield. (Relays are basically electrically operated 
