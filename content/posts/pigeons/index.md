@@ -63,7 +63,7 @@ mess up the wifi config ;)
 I decided to use my old iPhone 6S as a camera: Its small, has a
 battery, works without any configuration and most importantly: I 
 had it at hand. After finding a suitable position on my window, I
-designed a very simple holding bracket, 3D printed it and glued it
+designed a simple holding bracket, 3D printed it and glued it
 on my balcony window using [3M mounting tape](https://www.amazon.de/3M-VHB-Hochleistungsklebeband-schwarz-doppelseitiges/dp/B00EDLPG7Y/ref=sr_1_6?keywords=3M+tape&qid=1650114049&sr=8-6) [^tape].
 I use [this app](https://apps.apple.com/de/app/ipcamera-high-end-networkcam/id570912928?l=en)
 to get a MJPEG stream of its camera. It works good and 
