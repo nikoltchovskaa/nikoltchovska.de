@@ -2,7 +2,7 @@
 title: "Speeding up Python with Java"
 date: 2023-05-27T11:43:00+02:00
 draft: false 
-summary: "Remeber kids, 8 billion devices run Java."
+summary: "Remember kids, 8 billion devices run Java."
 ---
 
 Speeding up Python with C, C++, Rust or Fortran is pretty common. 
@@ -118,4 +118,4 @@ As you can see, the java version is around 200 times faster, even with the data 
 I also like the ergonomics and that the JVM saves me from cross compiling.
 
 
-Remeber kids, 8 billion devices run Java.
+Remember kids, 8 billion devices run Java.
