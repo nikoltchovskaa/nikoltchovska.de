@@ -116,3 +116,6 @@ In [7]: assert steps(arr, .9) == steps_java(arr, .9) # both produce the same res
 
 As you can see, the java version is around 200 times faster, even with the data conversion.
 I also like the ergonomics and that the JVM saves me from cross compiling.
+
+
+Remeber kids, 8 billion devices run Java.
