@@ -39,7 +39,7 @@ assert steps(np.array([0, 1, 0, 1]), 0.5) == (2, 1)
 
 The Java version is also pretty straight forward:
 
-```
+```java
 public class Step {
     public int up;
     public int down;
