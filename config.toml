@@ -3,7 +3,7 @@ title = 'Max Nagy´s personal Website'
 theme = 'terminal' # 'researcher' #'risotto'
 
 author = "Max Nagy"
-copyright = "© 2021 Max Nagy"
+copyright = "© 2023 Max Nagy"
 paginate = 3
 languageCode = "en"
 DefaultContentLanguage = "en"
