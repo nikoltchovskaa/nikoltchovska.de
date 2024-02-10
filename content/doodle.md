@@ -82,6 +82,6 @@ function postToURL(url, imageData) {
         };
         // Assuming you have a function to post data to a URL
         // Replace 'postToURL' with your actual function to post data
-        postToURL('http://localhost:8080/upload', postData);
+        postToURL('http://demo.maxnagy.com/doodle', postData);
     }
 </script>
