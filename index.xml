@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Max Nagy</title><link>https://maxnagy.com/</link><description>Recent content on Max Nagy</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>© 2023 Max Nagy</copyright><lastBuildDate>Mon, 18 Sep 2023 10:31:00 +0200</lastBuildDate><atom:link href="https://maxnagy.com/index.xml" rel="self" type="application/rss+xml"/><item><title>IBM Model 1 Machine Translation in Python</title><link>https://maxnagy.com/posts/ibm/</link><pubDate>Mon, 18 Sep 2023 10:31:00 +0200</pubDate><guid>https://maxnagy.com/posts/ibm/</guid><description>&lt;p>The IBM model 1 is the original gangster of statistical machine translation.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Alexandra Nikoltchovska</title><link>https://nikoltchovska.de/</link><description>Recent content on Alexandra Nikoltchovska</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>© 2024 Alexandra Nikoltchovska</copyright><lastBuildDate>Mon, 18 Sep 2023 10:31:00 +0200</lastBuildDate><atom:link href="https://nikoltchovska.de/index.xml" rel="self" type="application/rss+xml"/><item><title>IBM Model 1 Machine Translation in Python</title><link>https://nikoltchovska.de/posts/ibm/</link><pubDate>Mon, 18 Sep 2023 10:31:00 +0200</pubDate><guid>https://nikoltchovska.de/posts/ibm/</guid><description>&lt;p>The IBM model 1 is the original gangster of statistical machine translation.
 It can learn a dictionary between two languages from a number of translated sentences
 without any real understanding of language and with a complete disregard for word order.&lt;/p>
 &lt;p>Even though, we will see that is is able to get meaningful results even from small-ish
@@ -280,7 +280,7 @@ menu -&amp;gt; speisekarte (1.00)
 salt -&amp;gt; salz (0.99)
 with -&amp;gt; mit (1.00)
 morning -&amp;gt; morgen (1.00)
-&lt;/code>&lt;/pre></content></item><item><title>Speeding up Python with Java</title><link>https://maxnagy.com/posts/jpype/</link><pubDate>Sat, 27 May 2023 11:43:00 +0200</pubDate><guid>https://maxnagy.com/posts/jpype/</guid><description>Remember kids, 8 billion devices run Java.</description><content>&lt;p>Speeding up Python with C, C++, Rust or Fortran is pretty common.
+&lt;/code>&lt;/pre></content></item><item><title>Speeding up Python with Java</title><link>https://nikoltchovska.de/posts/jpype/</link><pubDate>Sat, 27 May 2023 11:43:00 +0200</pubDate><guid>https://nikoltchovska.de/posts/jpype/</guid><description>Remember kids, 8 billion devices run Java.</description><content>&lt;p>Speeding up Python with C, C++, Rust or Fortran is pretty common.
 Today we&amp;rsquo;ll do something different and use Java instead. While definitely uncool, its memory safe,
 garbage collected and pretty quick due to JVM magic.&lt;/p>
 &lt;p>As an example, we&amp;rsquo;ll be implementing a very simple state machine that counts the number of times
@@ -372,7 +372,7 @@ is pretty slow on my machine. Lets compare the two versions:&lt;/p>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>In &lt;span style="color:#f92672">[&lt;/span>7&lt;span style="color:#f92672">]&lt;/span>: assert steps&lt;span style="color:#f92672">(&lt;/span>arr, .9&lt;span style="color:#f92672">)&lt;/span> &lt;span style="color:#f92672">==&lt;/span> steps_java&lt;span style="color:#f92672">(&lt;/span>arr, .9&lt;span style="color:#f92672">)&lt;/span> &lt;span style="color:#75715e"># both produce the same result&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>As you can see, the java version is around 200 times faster, even with the data conversion.
 I also like the ergonomics and that the JVM saves me from cross compiling.&lt;/p>
-&lt;p>Remember kids, 8 billion devices run Java.&lt;/p></content></item><item><title>How to debug NaN Values in PyTorch Models during Training</title><link>https://maxnagy.com/posts/torch_nans/</link><pubDate>Fri, 13 Jan 2023 10:31:00 +0200</pubDate><guid>https://maxnagy.com/posts/torch_nans/</guid><description>It&amp;rsquo;s really slow.</description><content>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-python" data-lang="python">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># FROM THE DEPTH OF THE POND SHINES THE TORCH OF LIGHT WHERE THERE&lt;/span>
+&lt;p>Remember kids, 8 billion devices run Java.&lt;/p></content></item><item><title>How to debug NaN Values in PyTorch Models during Training</title><link>https://nikoltchovska.de/posts/torch_nans/</link><pubDate>Fri, 13 Jan 2023 10:31:00 +0200</pubDate><guid>https://nikoltchovska.de/posts/torch_nans/</guid><description>It&amp;rsquo;s really slow.</description><content>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-python" data-lang="python">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># FROM THE DEPTH OF THE POND SHINES THE TORCH OF LIGHT WHERE THERE&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># IS GREED IN MEN AND LIGHT IN THE STONE WHERE THE ANCIENT SPIRIT&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># LIVES THAT CONSUMES TIME TO SHED TRUTH UPON NUMBERS THAT EXCEED THE&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># REACH OF GOD IT REQUIRES THE ULTIMATE SACRIFICE OF TIME OH HOW SLOW&lt;/span>
@@ -380,7 +380,7 @@ I also like the ergonomics and that the JVM saves me from cross compiling.&lt;/p
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># TO FREE OUR PITYFUL HUMAN SPIRITS FROM THOSE STUPID NANS IN MY MODEL&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># PARAMETERS PLS&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>torch&lt;span style="color:#f92672">.&lt;/span>autograd&lt;span style="color:#f92672">.&lt;/span>set_detect_anomaly(&lt;span style="color:#66d9ef">True&lt;/span>)
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>It&amp;rsquo;s really slow. (&lt;a href="https://github.com/pytorch/pytorch/issues/1274">via&lt;/a>)&lt;/p></content></item><item><title>The overengineered Solution to my Pigeon Problem</title><link>https://maxnagy.com/posts/pigeons/</link><pubDate>Sat, 16 Apr 2022 12:05:06 +0200</pubDate><guid>https://maxnagy.com/posts/pigeons/</guid><description>&lt;p>TL;DR: I built a wifi-equipped water gun to shoot
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>It&amp;rsquo;s really slow. (&lt;a href="https://github.com/pytorch/pytorch/issues/1274">via&lt;/a>)&lt;/p></content></item><item><title>The overengineered Solution to my Pigeon Problem</title><link>https://nikoltchovska.de/posts/pigeons/</link><pubDate>Sat, 16 Apr 2022 12:05:06 +0200</pubDate><guid>https://nikoltchovska.de/posts/pigeons/</guid><description>&lt;p>TL;DR: I built a wifi-equipped water gun to shoot
 the pigeons on my balcony, controlled over the internet by a
 python script running openCV reading the camera image of my
 old iPhone.&lt;/p>
@@ -451,7 +451,7 @@ old iPhone.&lt;/p>
 &lt;h1 id="the-water-gun">The Water Gun&lt;/h1>
 &lt;p>I bought a cheap electric water gun &lt;a href="https://www.amazon.de/Wasserpistole-Elektrische-Wasserblaster-Wasserdicht-Wasserspielzeug/dp/B09578C69R/ref=sr_1_6?keywords=wasserpistole+elektrisch&amp;qid=1650101643&amp;sprefix=wasserpistole+ele%2Caps%2C147&amp;sr=8-6">from Amazon&lt;/a> and tested it out: The range of around 3-4 meters is pathetic, but plenty for my balcony.&lt;/p>
 &lt;p>Next, I opened it up to figure out how to control it over the internet:&lt;/p>
-&lt;p>&lt;img alt="The water gun opened" src="https://maxnagy.com/posts/pigeons/water_gun.jpg">&lt;/p>
+&lt;p>&lt;img alt="The water gun opened" src="https://nikoltchovska.de/posts/pigeons/water_gun.jpg">&lt;/p>
 &lt;p>I chose one of my trusty Wemos D1 Mini boards as the brain of the
 water gun. They are small, cheap, offer Wifi and have some shields
 available for them that ease cabling. In particular I&amp;rsquo;m using the
@@ -460,7 +460,7 @@ switches).
 To control the water gun, I inserted a small paper contraption
 in the battery department that allows me to break the gun&amp;rsquo;s
 power and added a small hole for the cables:&lt;/p>
-&lt;p>&lt;img alt="The water gun with the paper contraption and the microcontroller installed" src="https://maxnagy.com/posts/pigeons/microcontroller.jpg">&lt;/p>
+&lt;p>&lt;img alt="The water gun with the paper contraption and the microcontroller installed" src="https://nikoltchovska.de/posts/pigeons/microcontroller.jpg">&lt;/p>
 &lt;p>The microcontroller is powered by a USB power bank which is convenient, as the microcontroller does not drain the gun&amp;rsquo;s battery (where
 recheargable batteries don&amp;rsquo;t fit (yes, really)), and the guns motor
 can draw as much power as it wants without crashing the
@@ -624,7 +624,7 @@ reflector bind only my VPN. But if you made it this far through the
 text you wouldn&amp;rsquo;t do that, right? &amp;lt;3&lt;/p>
 &lt;h1 id="results">Results&lt;/h1>
 &lt;p>Let&amp;rsquo;s have a look at our first customer:&lt;/p>
-&lt;p>&lt;img src="https://maxnagy.com/posts/pigeons/1.jpg">&lt;/p>
+&lt;p>&lt;img src="https://nikoltchovska.de/posts/pigeons/1.jpg">&lt;/p>
 &lt;p>Look at him sitting there, just behind the railings. This is
 precisely where the water gun &lt;em>would&lt;/em> be pointing at. This picture
 was taken, in the brief period between realising that the wifi on
@@ -636,10 +636,10 @@ shouting at pigeons is not that bad of a solution after all?
 Luckily I had an exam phase to distract me from this
 disappointment.&lt;/p>
 &lt;p>I was quite relieved-ish to find another customer on day seven:&lt;/p>
-&lt;p>&lt;img src="https://maxnagy.com/posts/pigeons/4.jpg">&lt;/p>
+&lt;p>&lt;img src="https://nikoltchovska.de/posts/pigeons/4.jpg">&lt;/p>
 &lt;p>Spot on! This success lasted for a few days until the pigeons took
 it to the third dimension:&lt;/p>
-&lt;p>&lt;img src="https://maxnagy.com/posts/pigeons/5.jpg">&lt;/p>
+&lt;p>&lt;img src="https://nikoltchovska.de/posts/pigeons/5.jpg">&lt;/p>
 &lt;p>I guess, I&amp;rsquo;ll just keep the table inside for now.&lt;/p>
 &lt;p>To be continued&amp;hellip;&lt;/p>
 &lt;div class="footnotes" role="doc-endnotes">
@@ -660,7 +660,7 @@ as &lt;code>background[x,y] &amp;lt;- background[x,y] * 0.95 + new_image[x,y] * 
 we would detect a lot of differences as clouds change the lighting throughout the day.&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/div></content></item><item><title/><link>https://maxnagy.com/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://maxnagy.com/about/</guid><description>&lt;p>Hi, I&amp;rsquo;m Alex and this is my website!&lt;/p>
+&lt;/div></content></item><item><title/><link>https://nikoltchovska.de/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nikoltchovska.de/about/</guid><description>&lt;p>Hi, I&amp;rsquo;m Alex and this is my website!&lt;/p>
 &lt;p>I currently study computer science in the master&amp;rsquo;s program at KIT.&lt;/p>
 &lt;p>This website is currently pretty boring and I&amp;rsquo;ll try my best to
 make it more w̴͉̤͖̰̺͇͌͆͐̑̎͋̆̌͘ē̴̪̬̟͓̯̫̖̎̾̓̏̚͝i̷͍̳̱̲̳̥͒̒͐̌̒̋͂̈͑͘͠r̵̛̪͎͒̑̅͐͗́͒̒͌̕͠͝d̴̡͈̻̯͕̤͚͕̝̣̈́̓͝ in the future. Doodles as a comment system,
@@ -668,7 +668,7 @@ anyone?&lt;/p></description><content>&lt;p>Hi, I&amp;rsquo;m Alex and this is my
 &lt;p>I currently study computer science in the master&amp;rsquo;s program at KIT.&lt;/p>
 &lt;p>This website is currently pretty boring and I&amp;rsquo;ll try my best to
 make it more w̴͉̤͖̰̺͇͌͆͐̑̎͋̆̌͘ē̴̪̬̟͓̯̫̖̎̾̓̏̚͝i̷͍̳̱̲̳̥͒̒͐̌̒̋͂̈͑͘͠r̵̛̪͎͒̑̅͐͗́͒̒͌̕͠͝d̴̡͈̻̯͕̤͚͕̝̣̈́̓͝ in the future. Doodles as a comment system,
-anyone?&lt;/p></content></item><item><title>doodle</title><link>https://maxnagy.com/doodle/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://maxnagy.com/doodle/</guid><description>&lt;style>
+anyone?&lt;/p></content></item><item><title>doodle</title><link>https://nikoltchovska.de/doodle/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nikoltchovska.de/doodle/</guid><description>&lt;style>
 canvas {
 border: 2px solid #FEAA70;
 }
