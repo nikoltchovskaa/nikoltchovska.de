@@ -1,4 +1,4 @@
-Hi, I'm Max and this is my website!
+Hi, I'm Alex and this is my website!
 
 I currently study computer science in the master's program at KIT.
 
