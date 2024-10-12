@@ -1,9 +1,9 @@
-baseURL = 'https://maxnagy.com/'
+baseURL = 'https://nikoltchovska.de/'
 title = 'Max Nagy´s personal Website'
 theme = 'terminal' # 'researcher' #'risotto'
 
-author = "Max Nagy"
-copyright = "© 2023 Max Nagy"
+author = "Alexandra Nikoltchovska"
+copyright = "© 2024 Alexandra Nikoltchovska"
 paginate = 3
 languageCode = "en"
 DefaultContentLanguage = "en"
@@ -64,9 +64,9 @@ unsafe = true
 
 [languages]
   [languages.en]
-    title = "Max Nagy"
+    title = "Alexandra Nikoltchovska"
     subtitle = "my personal website"
 
   [languages.en.params.logo]
-    logoText = "Max Nagy"
+    logoText = "Alexandra Nikoltchovska"
     logoHomeLink = "/"
