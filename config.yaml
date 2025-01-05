@@ -192,9 +192,9 @@ params:
         #  url: "https://example.com"
         info:
           enable: true
-          content: I worked part time as a software developer for more than 4 yeary in Porsche AG.
+          content: I worked part time as a software developer for more than 4 years in Porsche AG.
         content: |
-          I worked part time as a software developer for more than 4 yeary in Porsche AG. My tasks included:
+          I worked part time as a software developer for more than 4 years in Porsche AG. My tasks included:
           
           - Requirement engineering, design and implementation of various use cases in collaboration with development experts.
           - Development of complex data analysis pipelines with PySpark, SQL and Pandas.
