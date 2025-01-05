@@ -29,11 +29,11 @@ Menus:
       title: Blog posts
       url: /posts
       weight: 1
-    - identifier: gallery
-      name: Gallery
-      title: Blog posts
-      url: /gallery
-      weight: 2
+    #- identifier: gallery
+    #  name: Gallery
+    #  title: Blog posts
+    #  url: /gallery
+    #  weight: 2
     #Dropdown menu
     # - identifier: dropdown
     #   title: Example dropdown menu
@@ -56,7 +56,7 @@ params:
   title: "Alexandra Nikoltchovska"
   description: Text about my cool site
   # staticPath: ""  # The path to serve the static files from
-  favicon: "/fav.png"
+  #favicon: "/fav.png"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -259,13 +259,14 @@ params:
           name: "91. Gymnasium Prof. Konstatin Galabov"
           url: "https://da-galabov.eu/"
         #GPA: "4.2 out of 5.0"
+        Advanced Courses: Maths, Biology, German
         #featuredLink:
         #  enable: true
         #  url: "https://example.com"
 
   # Achievements
   achievements:
-    enable: true
+    enable: false
     # title: "Custom Name"
     items:
       - title: Google kickstart runner
@@ -287,7 +288,7 @@ params:
 
   # projects
   projects:
-    enable: true
+    enable: false
     # title: "Custom Name"
     items:
       - title: Hugo Profile
@@ -337,7 +338,7 @@ params:
 
   #Contact
   contact:
-    enable: true
+    enable: false
     # title: "Custom Name"
     content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
     btnName: Mail me
@@ -357,11 +358,8 @@ params:
       enable: true
       disableFeaturedImage: false
     socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
-      twitter: https://twitter.com
-      instagram: https://instagram.com
-      facebook: https://facebook.com
+      #github: https://github.com
+      linkedin: https://www.linkedin.com/in/alexandra-nikoltchovska-433917130/
 
   # List pages like blogs and posts
   listPages:
