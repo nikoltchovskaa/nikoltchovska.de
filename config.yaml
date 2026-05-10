@@ -56,7 +56,7 @@ params:
   title: "Alexandra Nikoltchovska"
   description: Text about my cool site
   # staticPath: ""  # The path to serve the static files from
-  favicon: "hello"
+  favicon: ""
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -121,7 +121,7 @@ params:
       disableExperience: false
       disableEducation: false
       disableProjects: true
-      disableAchievements: true
+      disableAchievements: false
       disableContact: false
 
   # Hero
@@ -130,7 +130,7 @@ params:
     intro: "Hi, my name is"
     title: "Alexandra Nikoltchovska."
     subtitle: "PhD Student"
-    content: "This site is currently under construction. More content coming soon."
+    content: "I am a PhD student at the Institute for Automation and Applied Informatics at KIT, working on probabilistic machine learning and explainable AI for energy systems."
     image: /images/alex.jpeg
     bottomImage:
       enable: true
@@ -173,52 +173,43 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - job: "PhD Student"
+      - job: "Research Associate & PhD Candidate"
         company: "Karlsruhe Institute of Technology"
         companyUrl: "https://kit.edu"
         date: "Jan 2025 - present"
-        #featuredLink:
-        #  enable: true
-        #  name: "View the project"
-        #  url: "https://example.com"
-        #content: "I am currently working as a software developer at [example org.](https://example.com) in Karlsruhe, Germany."
+        content: |
+          Institute for Automation and Applied Informatics (IAI), KIT, Karlsruhe.
+
+          Research in probabilistic machine learning and explainable AI for energy systems.
 
       - job: "Working Student Data Science and Software Development"
         company: "Porsche AG"
         companyUrl: "https://porsche.de"
         date: "Feb 2020 - Dec 2024"
-        #featuredLink:
-        #  enable: true
-        #  url: "https://example.com"
         info:
-          enable: true
-          content: I worked part time as a software developer for more than 4 years in Porsche AG.
+          enable: false
         content: |
-          I worked part time as a software developer for more than 4 years in Porsche AG. My tasks included:
-          
-          - Requirement engineering, design and implementation of various use cases in collaboration with development experts.
-          - Development of complex data analysis pipelines with PySpark, SQL and Pandas.
-          - Visualization using Tableau, matplotlib and Plotly.
-          - Strategy development for processing time series and fleet data.
-          - Platform management and engineering of an Automotive Machine Learning Predictive Maintenance Framework.
-          - Development of machine learning prediction models for remaining useful life estimation of compoments.
-          - Organisation of scientific training courses and workshops.
+          Requirements engineering and end-to-end implementation of data science use cases using PySpark, SQL, Pandas, matplotlib, and Plotly. Development of processing strategies for large-scale time series and fleet data.
 
-      - job: "Student Assistant"
+      - job: "Student Research Assistant"
         company: "Karlsruhe Institute of Technology"
         companyUrl: "https://kit.edu"
         date: "Jul 2018 - Jan 2020"
         info:
           enable: false
         content: |
-          Research on semi-automated data analysis: implementation of algorithms for feature engineering, development of a framework for scientific evaluation of the algorithms.
-      
+          Institute for Program Structures and Data Organization (IPD), KIT, Karlsruhe.
+
+          Research on semi-automated data analysis: implementation of algorithms for feature engineering in machine learning, development of a framework for scientific evaluation of algorithms.
+
       - job: "Student Assistant"
         company: "Steinbeis 2i GmbH"
-        companyUrl: "https://example.com"
+        companyUrl: "https://steinbeis-2i.de"
         date: "Oct 2016 - Jun 2018"
+        info:
+          enable: false
         content: |
-          Assistance with project management, organising events, carrying out public relations, communication and research activities, maintenance of project websites.
+          Support in project management, organization of events, public relations work, communication measures and research, maintenance of project websites.
     
   # Education
   education:
@@ -231,60 +222,35 @@ params:
           name: "Karlsruhe Institute of Technology"
           url: "https://kit.edu"
         date: "2021 - 2024"
-        Grade: "1.5"
         content: |-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+          Thesis: *Explaining Uncertainties in Power Grid Stability Predictions*
       - title: "Bachelor of Science in Computer Science"
         school:
           name: "Karlsruhe Institute of Technology"
           url: "https://kit.edu"
         date: "2016 - 2021"
-        #Grade: "2.7"
         content: |-
-          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
-          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-          - Face mask detection using a single convolutional neural network.
-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-        featuredLink:
-          enable: true
-          name: "My academic record"
-          url: "https://example.com"
-      - title: "High School"
+          Thesis: *Evaluation of AutoML Methods for Predictive Maintenance*
+      - title: "Dual High School Diploma (German and Bulgarian)"
         school:
-          name: "91. Gymnasium Prof. Konstatin Galabov"
+          name: "91. Gymnasium Prof. Konstantin Galabov"
           url: "https://da-galabov.eu/"
-        #GPA: "4.2 out of 5.0"
-        Advanced Courses: Maths, Biology, German
-        #featuredLink:
-        #  enable: true
-        #  url: "https://example.com"
+        date: "2011 - 2016"
 
   # Achievements
   achievements:
-    enable: false
-    # title: "Custom Name"
+    enable: true
+    title: "Publications"
     items:
-      - title: Google kickstart runner
-        content: I solved all problems with optimal solution.
-        url: https://example.com
-        image: /images/achievment.jpg
-      - title: Facebook Hackathon Winner
-        content: Developed a product using Artificial Intelligence.
-        image: /images/achievment.jpg
-      - title: Hugo Profile
-        content: Developed a theme and getting 1K+ downloads per month.
-        url: "https://github.com/gurusabarish/hugo-profile"
-        image: /images/achievment.jpg
-      - title: Microsoft Imagine Runner
-        content: We are developed a product which can help others.
-      - title: Google Summer of Code
-        content: Contributed to a open source project.
-        url: https://example.com
+      - title: "Probabilistic and Explainable Machine Learning for Tabular Power Grid Data"
+        content: "A. Nikoltchovska, S. Pütz, X. Li, V. Hagenmeyer, B. Schäfer. In Proceedings of the ACM International Conference on Future Energy Systems (e-Energy), 2025."
+        url: https://dl.acm.org/doi/full/10.1145/3679240.3734623
+      - title: "Correlations Matter in Explanations for Energy Systems"
+        content: "A. Nikoltchovska, S. Pütz, M. Götz, B. Schäfer. KI – Künstliche Intelligenz, 2026."
+        url: https://link.springer.com/article/10.1007/s13218-026-00904-4
+      - title: "Explainable Load Forecasting with Covariate-Informed Time Series Foundation Models"
+        content: "A. Nikoltchovska, M. Hertel, S. Pütz, R. Mikut, B. Schäfer, V. Hagenmeyer. In Proceedings of the ACM International Conference on Future Energy Systems (e-Energy), Banff, Canada, 2026."
+        url: https://arxiv.org/abs/2604.28149
 
   # projects
   projects:

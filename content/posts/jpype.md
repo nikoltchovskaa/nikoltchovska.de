@@ -1,7 +1,7 @@
 ---
 title: "Speeding up Python with Java"
 date: 2023-05-27T11:43:00+02:00
-draft: false 
+draft: true 
 summary: "Remember kids, 8 billion devices run Java."
 ---
 

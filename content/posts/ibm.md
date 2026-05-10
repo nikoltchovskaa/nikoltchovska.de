@@ -1,7 +1,7 @@
 ---
 title: "IBM Model 1 Machine Translation in Python"
 date: 2023-09-18T10:31:00+02:00
-draft: false 
+draft: true 
 ---
 
 The IBM model 1 is the original gangster of statistical machine translation.
