@@ -173,43 +173,41 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - job: "Research Associate & PhD Candidate"
-        company: "Karlsruhe Institute of Technology"
+      - company: "Karlsruhe Institute of Technology"
         companyUrl: "https://kit.edu"
-        date: "Jan 2025 - present"
-        content: |
-          Institute for Automation and Applied Informatics (IAI), KIT, Karlsruhe.
+        jobs:
+          - name: "Research Associate & PhD Candidate"
+            date: "Jan 2025 - present"
+            content: |
+              Institute for Automation and Applied Informatics (IAI), KIT, Karlsruhe.
 
-          Research in probabilistic machine learning and explainable AI for energy systems.
+              Research in probabilistic machine learning and explainable AI for energy systems.
 
-      - job: "Working Student Data Science and Software Development"
-        company: "Porsche AG"
+      - company: "Porsche AG"
         companyUrl: "https://porsche.de"
-        date: "Feb 2020 - Dec 2024"
-        info:
-          enable: false
-        content: |
-          Requirements engineering and end-to-end implementation of data science use cases using PySpark, SQL, Pandas, matplotlib, and Plotly. Development of processing strategies for large-scale time series and fleet data.
+        jobs:
+          - name: "Working Student Data Science and Software Development"
+            date: "Feb 2020 - Dec 2024"
+            content: |
+              Requirements engineering and end-to-end implementation of data science use cases using PySpark, SQL, Pandas, matplotlib, and Plotly. Development of processing strategies for large-scale time series and fleet data.
 
-      - job: "Student Research Assistant"
-        company: "Karlsruhe Institute of Technology"
+      - company: "Karlsruhe Institute of Technology"
         companyUrl: "https://kit.edu"
-        date: "Jul 2018 - Jan 2020"
-        info:
-          enable: false
-        content: |
-          Institute for Program Structures and Data Organization (IPD), KIT, Karlsruhe.
+        jobs:
+          - name: "Student Research Assistant"
+            date: "Jul 2018 - Jan 2020"
+            content: |
+              Institute for Program Structures and Data Organization (IPD), KIT, Karlsruhe.
 
-          Research on semi-automated data analysis: implementation of algorithms for feature engineering in machine learning, development of a framework for scientific evaluation of algorithms.
+              Research on semi-automated data analysis: implementation of algorithms for feature engineering in machine learning, development of a framework for scientific evaluation of algorithms.
 
-      - job: "Student Assistant"
-        company: "Steinbeis 2i GmbH"
+      - company: "Steinbeis 2i GmbH"
         companyUrl: "https://steinbeis-2i.de"
-        date: "Oct 2016 - Jun 2018"
-        info:
-          enable: false
-        content: |
-          Support in project management, organization of events, public relations work, communication measures and research, maintenance of project websites.
+        jobs:
+          - name: "Student Assistant"
+            date: "Oct 2016 - Jun 2018"
+            content: |
+              Support in project management, organization of events, public relations work, communication measures and research, maintenance of project websites.
     
   # Education
   education:
