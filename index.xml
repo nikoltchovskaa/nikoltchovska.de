@@ -1,31 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Alexandra Nikoltchovska</title><link>https://nikoltchovska.de/</link><description>Recent content on Alexandra Nikoltchovska</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 18 Sep 2023 10:31:00 +0200</lastBuildDate><atom:link href="https://nikoltchovska.de/index.xml" rel="self" type="application/rss+xml"/><item><title>IBM Model 1 Machine Translation in Python</title><link>https://nikoltchovska.de/posts/ibm/</link><pubDate>Mon, 18 Sep 2023 10:31:00 +0200</pubDate><guid>https://nikoltchovska.de/posts/ibm/</guid><description>&lt;p>The IBM model 1 is the original gangster of statistical machine translation.
-It can learn a dictionary between two languages from a number of translated sentences
-without any real understanding of language and with a complete disregard for word order.&lt;/p>
-&lt;p>Even though, we will see that is is able to get meaningful results even from small-ish
-training sets. While the usual way of explaining its working involves alignments, I find
-it much more intuitive to think about it as a variant of &lt;a href="https://en.wikipedia.org/wiki/Power_iteration">Von Mises Iteration&lt;/a>.
-In both cases we iteratively move some kind of mass to the most probable solution. Constant
-normalization of the solution reinforces the most probable solution while suppressing less
-probable ones.&lt;/p></description></item><item><title>Speeding up Python with Java</title><link>https://nikoltchovska.de/posts/jpype/</link><pubDate>Sat, 27 May 2023 11:43:00 +0200</pubDate><guid>https://nikoltchovska.de/posts/jpype/</guid><description>Remember kids, 8 billion devices run Java.</description></item><item><title>How to debug NaN Values in PyTorch Models during Training</title><link>https://nikoltchovska.de/posts/torch_nans/</link><pubDate>Fri, 13 Jan 2023 10:31:00 +0200</pubDate><guid>https://nikoltchovska.de/posts/torch_nans/</guid><description>It&amp;rsquo;s really slow.</description></item><item><title>The overengineered Solution to my Pigeon Problem</title><link>https://nikoltchovska.de/posts/pigeons/</link><pubDate>Sat, 16 Apr 2022 12:05:06 +0200</pubDate><guid>https://nikoltchovska.de/posts/pigeons/</guid><description>&lt;p>TL;DR: I built a wifi-equipped water gun to shoot
-the pigeons on my balcony, controlled over the internet by a
-python script running openCV reading the camera image of my
-old iPhone.&lt;/p>
-&lt;hr>
-&lt;h1 id="introduction">Introduction&lt;/h1>
-&lt;p>The pigeons in my backyard find particular pleasures in voiding their excrements onto my balcony. Dissatisfied with this situation, I went online to find a solution. I created a handy table to give you an overview of the vast number of &lt;del>effective&lt;/del> &lt;em>established&lt;/em> ways to get rid if pigeons:&lt;/p></description></item><item><title/><link>https://nikoltchovska.de/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nikoltchovska.de/about/</guid><description>&lt;p>Hi, I&amp;rsquo;m Alex and this is my website!&lt;/p>
-&lt;p>I currently study computer science in the master&amp;rsquo;s program at KIT.&lt;/p>
-&lt;p>This website is currently pretty boring and I&amp;rsquo;ll try my best to
-make it more w̴͉̤͖̰̺͇͌͆͐̑̎͋̆̌͘ē̴̪̬̟͓̯̫̖̎̾̓̏̚͝i̷͍̳̱̲̳̥͒̒͐̌̒̋͂̈͑͘͠r̵̛̪͎͒̑̅͐͗́͒̒͌̕͠͝d̴̡͈̻̯͕̤͚͕̝̣̈́̓͝ in the future. Doodles as a comment system,
-anyone?&lt;/p></description></item><item><title>doodle</title><link>https://nikoltchovska.de/doodle/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nikoltchovska.de/doodle/</guid><description>&lt;style>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Alexandra Nikoltchovska</title><link>https://nikoltchovska.de/</link><description>Recent content on Alexandra Nikoltchovska</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://nikoltchovska.de/index.xml" rel="self" type="application/rss+xml"/><item><title>Publications</title><link>https://nikoltchovska.de/publications/</link><pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate><guid>https://nikoltchovska.de/publications/</guid><description>&lt;p&gt;&lt;strong&gt;&lt;a href="https://dl.acm.org/doi/full/10.1145/3679240.3734623"&gt;Probabilistic and Explainable Machine Learning for Tabular Power Grid Data&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;
+A. Nikoltchovska, S. Pütz, X. Li, V. Hagenmeyer, B. Schäfer&lt;br&gt;
+&lt;em&gt;Proceedings of the ACM International Conference on Future Energy Systems (e-Energy)&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="https://link.springer.com/article/10.1007/s13218-026-00904-4"&gt;Correlations Matter in Explanations for Energy Systems&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;
+A. Nikoltchovska, S. Pütz, M. Götz, B. Schäfer&lt;br&gt;
+&lt;em&gt;KI – Künstliche Intelligenz&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="https://arxiv.org/abs/2604.28149"&gt;Explainable Load Forecasting with Covariate-Informed Time Series Foundation Models&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;
+M. Hertel, A. Nikoltchovska, S. Pütz, R. Mikut, B. Schäfer, V. Hagenmeyer&lt;br&gt;
+&lt;em&gt;Proceedings of the ACM International Conference on Future Energy Systems (e-Energy 2026), Banff, Canada&lt;/em&gt;&lt;/p&gt;</description></item><item><title>About</title><link>https://nikoltchovska.de/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nikoltchovska.de/about/</guid><description>&lt;p&gt;Hi, I&amp;rsquo;m Alex!&lt;/p&gt;
+&lt;p&gt;I am a PhD student at the &lt;a href="https://www.iai.kit.edu/"&gt;Institute for Automation and Applied Informatics (IAI)&lt;/a&gt; at Karlsruhe Institute of Technology, where I work on probabilistic machine learning and explainable AI for energy systems.&lt;/p&gt;
+&lt;p&gt;Previously, I completed my M.Sc. in Computer Science at KIT with a thesis on explaining uncertainties in power grid stability predictions, and worked as a data science working student at Porsche AG for nearly five years.&lt;/p&gt;</description></item><item><title>doodle</title><link>https://nikoltchovska.de/doodle/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nikoltchovska.de/doodle/</guid><description>&lt;style&gt;
  canvas {
  border: 2px solid #FEAA70;
  }
-&lt;/style>
-&lt;/head>
-&lt;p>&lt;canvas id="drawingCanvas" width="400" height="400">&lt;/canvas>&lt;br>
-&lt;button onclick="resetCanvas()">Reset&lt;/button>
-&lt;button onclick="sendData()">Send&lt;/button>&lt;/p>
-&lt;script>
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;p&gt;&lt;canvas id="drawingCanvas" width="400" height="400"&gt;&lt;/canvas&gt;&lt;br&gt;
+&lt;button onclick="resetCanvas()"&gt;Reset&lt;/button&gt;
+&lt;button onclick="sendData()"&gt;Send&lt;/button&gt;&lt;/p&gt;
+&lt;script&gt;
 function postToURL(url, imageData) {
  // Convert image data to Blob
  let blob = new Blob([imageData], { type: 'image/jpeg' });
@@ -40,16 +34,16 @@ function postToURL(url, imageData) {
  method: 'POST',
  body: formData
  })
- .then(response => {
+ .then(response =&gt; {
  if (!response.ok) {
  throw new Error('Network response was not ok');
  }
  return response.json();
  })
- .then(data => {
+ .then(data =&gt; {
  console.log('Data sent successfully:', data);
  })
- .catch(error => {
+ .catch(error =&gt; {
  console.error('Error sending data:', error);
  });
 }
@@ -68,13 +62,13 @@ function postToURL(url, imageData) {
  ctx.fillRect(e.clientX - canvas.offsetLeft, e.clientY - canvas.offsetTop, 4, 4);
  }
  
- canvas.addEventListener("mousedown", () => {
+ canvas.addEventListener("mousedown", () =&gt; {
  drawing = true;
  });
  
  canvas.addEventListener("mousemove", draw);
  
- window.addEventListener("mouseup", () => {
+ window.addEventListener("mouseup", () =&gt; {
  drawing = false;
  });
  
@@ -95,4 +89,4 @@ function postToURL(url, imageData) {
  // Replace 'postToURL' with your actual function to post data
  postToURL('http://demo.maxnagy.com/doodle', postData);
  }
-&lt;/script></description></item></channel></rss>
+&lt;/script&gt;</description></item></channel></rss>
